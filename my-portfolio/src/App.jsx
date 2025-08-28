@@ -162,7 +162,7 @@ const Hero = ({ darkMode, scrollToSection }) => {
             </a>
             
             <a
-              href="/resume.pdf"
+              href=""
               download
               className={`flex items-center gap-2 px-8 py-3 rounded-lg font-semibold border-2 transition-all duration-200 ${
                 darkMode 
