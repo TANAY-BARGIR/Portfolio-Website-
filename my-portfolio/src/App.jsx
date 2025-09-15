@@ -33,6 +33,13 @@ const App = () => {
         html_url: 'https://github.com/TANAY-BARGIR/Personal-Expense-Tracker',
         language: 'Python',
         topics: ['HTML', 'CSS','Python', 'Flask']
+      },
+      {
+        name: 'Relational Algebra To SQL Conversion', 
+        description: 'This website simplifies the process of understanding how abstract relational algebra operations (like selection, projection, join, union, etc.) map to practical SQL syntax. This tool is designed to support learning, practice, and quick validation, making it useful for both beginners in DBMS and those preparing for exams or projects.',
+        html_url: 'https://github.com/TANAY-BARGIR/Relational_Algebra_To_SQL_JS',
+        language: 'javascript',
+        topics: ['HTML', 'CSS','javascript','SQL']
       }
     ]);
   }, []);
