@@ -5,11 +5,11 @@ const Skills = ({ darkMode }) => {
     { name: 'HTML5', level: 80, icon: Code },
     { name: 'CSS3', level: 80, icon: Globe },
     { name: 'JavaScript', level: 60, icon: Code },
-    { name: 'React', level: 60, icon: Code },
+    { name: 'Node.js', level: 60, icon: Code },
     { name: 'Express.js', level: 60, icon: Code },
-    { name: 'SQL', level: 50, icon: Database },
-    { name: 'Git', level: 50, icon: Github },
-    { name: 'Responsive Design', level: 80, icon: Smartphone }
+    { name: 'SQL', level: 80, icon: Database },
+    { name: 'Git', level: 60, icon: Github },
+    { name: 'Responsive Design', level: 70, icon: Smartphone }
   ];
 
   return (
