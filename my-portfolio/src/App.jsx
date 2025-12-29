@@ -14,6 +14,14 @@ const App = () => {
   useEffect(() => {
     setGithubRepos([
       {
+        name: "Anime-World-Project",
+        description:
+          "TA full-stack Node.js & Express application that catalogs anime characters. It uses a Hybrid Database Architecture: static content (Animes) is served via JSON files for performance, while dynamic user data (Users, Favorites) is stored in MongoDB.",
+        html_url: "https://github.com/TANAY-BARGIR/Anime-World-Project",
+        language: "javascript",
+        topics: ["Node.js", "Express.js", "EJS", "Mongo DB"],
+      },
+      {
         name: "Ecommerce Website",
         description:
           "This Ecommerce website is inspired by shopping features of various ecommerce websites.The layout of this website is inspired by Spotify-Music Platform",
@@ -25,7 +33,7 @@ const App = () => {
         name: "Code-Learn Platform",
         description:
           "CodeLearn is a learning platform inspired by W3Schools that helps users explore the basics and advanced concepts of HTML, CSS, and JavaScript. Built using React, Vite, and Tailwind CSS, this project is ideal for web development beginners.",
-        html_url: "https://github.com/TANAY-BARGIR/coding-platform",
+        html_url: "https://codelearn-by-tanay.netlify.app/",
         language: "Typescript",
         topics: ["React", "tailwindcss", "javascript", "typescript"],
       },
@@ -37,6 +45,15 @@ const App = () => {
           "https://github.com/TANAY-BARGIR/Movie_Recommendation_System_KNN_LITE",
         language: "CPP",
         topics: ["CPP", "KNN", "Python"],
+      },
+
+      {
+        name: "Personal Expense Tracker",
+        description:
+          "A simple and efficient Expense Tracker that helps you manage your daily spending, set budgets, and visualize expenses.",
+        html_url: "https://github.com/TANAY-BARGIR/Personal-Expense-Tracker",
+        language: "python",
+        topics: ["HTML", "CSS", "javascript", "python", "Flask"],
       },
       {
         name: "Relational Algebra To SQL Conversion",
